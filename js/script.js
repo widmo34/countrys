@@ -34,7 +34,7 @@ function showCountriesList(resp){
       item.population;
       item.nativeName;
 
-    var all = `<li>${item.name}</li> <li>${item.capital}</li> <li>${item.population}</li> <li>${item.nativeName}</li>`;
+    var all = `<li> name : ${item.name}</li> <li>capital : ${item.capital}</li> <li> population : ${item.population}</li> <li> native name : ${item.nativeName}</li>`;
                 
 
 
